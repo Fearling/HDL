@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="lab2_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="lab2_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="799.001 ns"></ZoomEndTime>
+      <Cursor1Time time="89.640 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="191"></NameColumnWidth>
+      <ValueColumnWidth column_width="108"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/lab2_sim/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_sim/rst_i" type="logic">
+      <obj_property name="ElementShortName">rst_i</obj_property>
+      <obj_property name="ObjectShortName">rst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_sim/RXD_i" type="logic">
+      <obj_property name="ElementShortName">RXD_i</obj_property>
+      <obj_property name="ObjectShortName">RXD_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_sim/TXD_o" type="logic">
+      <obj_property name="ElementShortName">TXD_o</obj_property>
+      <obj_property name="ObjectShortName">TXD_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_sim/sim/out" type="array">
+      <obj_property name="ElementShortName">out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">out[9:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab2_sim/sim/converter" type="array">
+      <obj_property name="ElementShortName">converter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">converter[31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

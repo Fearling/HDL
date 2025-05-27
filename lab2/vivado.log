@@ -1,0 +1,347 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Mar 31 16:29:54 2025
+# Process ID: 9832
+# Current directory: C:/HDL/lab2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15112 C:\HDL\lab2\lab2.xpr
+# Log file: C:/HDL/lab2/vivado.log
+# Journal file: C:/HDL/lab2\vivado.jou
+# Running On: DESKTOP-MVBP66S, OS: Windows, CPU Frequency: 2096 MHz, CPU Physical cores: 8, Host memory: 33752 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/HDL/lab2/lab2.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/HDL/lab2/lab2.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:14 . Memory (MB): peak = 1494.574 ; gain = 318.699
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'lab2_sim'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/HDL/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Vivado/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'lab2_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/HDL/lab2/lab2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj lab2_sim_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/HDL/lab2/lab2.srcs/sources_1/new/lab2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/HDL/lab2/lab2.srcs/sim_1/new/lab2_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lab2_sim
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/HDL/lab2/lab2.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lab2_sim_behav xil_defaultlib.lab2_sim xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Vivado/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lab2_sim_behav xil_defaultlib.lab2_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.lab2
+Compiling module xil_defaultlib.lab2_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot lab2_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/HDL/lab2/lab2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "lab2_sim_behav -key {Behavioral:sim_1:Functional:lab2_sim} -tclbatch {lab2_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source lab2_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+[5000] counter=1 clk_i=1 rst_i=0 led_o=0
+[10000] counter=2 clk_i=0 rst_i=0 led_o=0
+[15000] counter=3 clk_i=1 rst_i=0 led_o=0
+[20000] counter=4 clk_i=0 rst_i=0 led_o=0
+[25000] counter=5 clk_i=1 rst_i=0 led_o=0
+[30000] counter=6 clk_i=0 rst_i=0 led_o=0
+[35000] counter=7 clk_i=1 rst_i=0 led_o=0
+[40000] counter=8 clk_i=0 rst_i=0 led_o=0
+[45000] counter=9 clk_i=1 rst_i=0 led_o=0
+[50000] counter=10 clk_i=0 rst_i=0 led_o=0
+[55000] counter=11 clk_i=1 rst_i=0 led_o=0
+[60000] counter=12 clk_i=0 rst_i=0 led_o=0
+[65000] counter=13 clk_i=1 rst_i=0 led_o=0
+[70000] counter=14 clk_i=0 rst_i=0 led_o=0
+[75000] counter=15 clk_i=1 rst_i=0 led_o=0
+[80000] counter=16 clk_i=0 rst_i=0 led_o=0
+[85000] counter=17 clk_i=1 rst_i=0 led_o=0
+[90000] counter=18 clk_i=0 rst_i=0 led_o=0
+[95000] counter=19 clk_i=1 rst_i=0 led_o=0
+[100000] counter=20 clk_i=0 rst_i=0 led_o=0
+[105000] counter=21 clk_i=1 rst_i=0 led_o=0
+[110000] counter=22 clk_i=0 rst_i=0 led_o=0
+[115000] counter=23 clk_i=1 rst_i=0 led_o=0
+[120000] counter=24 clk_i=0 rst_i=0 led_o=0
+[125000] counter=25 clk_i=1 rst_i=0 led_o=0
+[130000] counter=26 clk_i=0 rst_i=0 led_o=0
+[135000] counter=27 clk_i=1 rst_i=0 led_o=0
+[140000] counter=28 clk_i=0 rst_i=0 led_o=0
+[145000] counter=29 clk_i=1 rst_i=0 led_o=0
+[150000] counter=30 clk_i=0 rst_i=0 led_o=0
+[155000] counter=31 clk_i=1 rst_i=0 led_o=0
+[160000] counter=32 clk_i=0 rst_i=0 led_o=0
+[165000] counter=33 clk_i=1 rst_i=0 led_o=0
+[170000] counter=34 clk_i=0 rst_i=0 led_o=0
+[175000] counter=35 clk_i=1 rst_i=0 led_o=0
+[180000] counter=36 clk_i=0 rst_i=0 led_o=0
+[185000] counter=37 clk_i=1 rst_i=0 led_o=0
+[190000] counter=38 clk_i=0 rst_i=0 led_o=0
+[195000] counter=39 clk_i=1 rst_i=0 led_o=0
+[200000] counter=40 clk_i=0 rst_i=1 led_o=0
+[205000] counter=41 clk_i=1 rst_i=1 led_o=0
+[210000] counter=42 clk_i=0 rst_i=1 led_o=0
+[215000] counter=43 clk_i=1 rst_i=1 led_o=0
+[220000] counter=44 clk_i=0 rst_i=1 led_o=0
+[225000] counter=45 clk_i=1 rst_i=1 led_o=0
+[230000] counter=46 clk_i=0 rst_i=1 led_o=0
+[235000] counter=47 clk_i=1 rst_i=1 led_o=0
+[240000] counter=48 clk_i=0 rst_i=1 led_o=0
+[245000] counter=49 clk_i=1 rst_i=1 led_o=0
+[250000] counter=50 clk_i=0 rst_i=1 led_o=0
+[255000] counter=51 clk_i=1 rst_i=1 led_o=0
+[260000] counter=52 clk_i=0 rst_i=1 led_o=0
+[265000] counter=53 clk_i=1 rst_i=1 led_o=0
+[270000] counter=54 clk_i=0 rst_i=1 led_o=0
+[275000] counter=55 clk_i=1 rst_i=1 led_o=0
+[280000] counter=56 clk_i=0 rst_i=1 led_o=0
+[285000] counter=57 clk_i=1 rst_i=1 led_o=0
+[290000] counter=58 clk_i=0 rst_i=1 led_o=0
+[295000] counter=59 clk_i=1 rst_i=1 led_o=0
+[300000] counter=60 clk_i=0 rst_i=1 led_o=0
+[305000] counter=61 clk_i=1 rst_i=1 led_o=0
+[310000] counter=62 clk_i=0 rst_i=1 led_o=0
+[315000] counter=63 clk_i=1 rst_i=1 led_o=0
+[320000] counter=64 clk_i=0 rst_i=1 led_o=0
+[325000] counter=65 clk_i=1 rst_i=1 led_o=0
+[330000] counter=66 clk_i=0 rst_i=1 led_o=0
+[335000] counter=67 clk_i=1 rst_i=1 led_o=0
+[340000] counter=68 clk_i=0 rst_i=1 led_o=0
+[345000] counter=69 clk_i=1 rst_i=1 led_o=0
+[350000] counter=70 clk_i=0 rst_i=1 led_o=0
+[355000] counter=71 clk_i=1 rst_i=1 led_o=1
+[360000] counter=72 clk_i=0 rst_i=1 led_o=1
+[365000] counter=73 clk_i=1 rst_i=1 led_o=1
+[370000] counter=74 clk_i=0 rst_i=1 led_o=1
+[375000] counter=75 clk_i=1 rst_i=1 led_o=1
+[380000] counter=76 clk_i=0 rst_i=1 led_o=1
+[385000] counter=77 clk_i=1 rst_i=1 led_o=1
+[390000] counter=78 clk_i=0 rst_i=1 led_o=1
+[395000] counter=79 clk_i=1 rst_i=1 led_o=1
+[400000] counter=80 clk_i=0 rst_i=0 led_o=0
+[405000] counter=81 clk_i=1 rst_i=0 led_o=0
+[410000] counter=82 clk_i=0 rst_i=0 led_o=0
+[415000] counter=83 clk_i=1 rst_i=0 led_o=0
+[420000] counter=84 clk_i=0 rst_i=0 led_o=0
+[425000] counter=85 clk_i=1 rst_i=0 led_o=0
+[430000] counter=86 clk_i=0 rst_i=0 led_o=0
+[435000] counter=87 clk_i=1 rst_i=0 led_o=0
+[440000] counter=88 clk_i=0 rst_i=0 led_o=0
+[445000] counter=89 clk_i=1 rst_i=0 led_o=0
+[450000] counter=90 clk_i=0 rst_i=0 led_o=0
+[455000] counter=91 clk_i=1 rst_i=0 led_o=0
+[460000] counter=92 clk_i=0 rst_i=0 led_o=0
+[465000] counter=93 clk_i=1 rst_i=0 led_o=0
+[470000] counter=94 clk_i=0 rst_i=0 led_o=0
+[475000] counter=95 clk_i=1 rst_i=0 led_o=0
+[480000] counter=96 clk_i=0 rst_i=0 led_o=0
+[485000] counter=97 clk_i=1 rst_i=0 led_o=0
+[490000] counter=98 clk_i=0 rst_i=0 led_o=0
+[495000] counter=99 clk_i=1 rst_i=0 led_o=0
+[500000] counter=100 clk_i=0 rst_i=0 led_o=0
+[505000] counter=101 clk_i=1 rst_i=0 led_o=0
+[510000] counter=102 clk_i=0 rst_i=0 led_o=0
+[515000] counter=103 clk_i=1 rst_i=0 led_o=0
+[520000] counter=104 clk_i=0 rst_i=0 led_o=0
+[525000] counter=105 clk_i=1 rst_i=0 led_o=0
+[530000] counter=106 clk_i=0 rst_i=0 led_o=0
+[535000] counter=107 clk_i=1 rst_i=0 led_o=0
+[540000] counter=108 clk_i=0 rst_i=0 led_o=0
+[545000] counter=109 clk_i=1 rst_i=0 led_o=0
+[550000] counter=110 clk_i=0 rst_i=0 led_o=0
+[555000] counter=111 clk_i=1 rst_i=0 led_o=0
+[560000] counter=112 clk_i=0 rst_i=0 led_o=0
+[565000] counter=113 clk_i=1 rst_i=0 led_o=0
+[570000] counter=114 clk_i=0 rst_i=0 led_o=0
+[575000] counter=115 clk_i=1 rst_i=0 led_o=0
+[580000] counter=116 clk_i=0 rst_i=0 led_o=0
+[585000] counter=117 clk_i=1 rst_i=0 led_o=0
+[590000] counter=118 clk_i=0 rst_i=0 led_o=0
+[595000] counter=119 clk_i=1 rst_i=0 led_o=0
+[600000] counter=120 clk_i=0 rst_i=0 led_o=0
+[605000] counter=121 clk_i=1 rst_i=0 led_o=0
+[610000] counter=122 clk_i=0 rst_i=0 led_o=0
+[615000] counter=123 clk_i=1 rst_i=0 led_o=0
+[620000] counter=124 clk_i=0 rst_i=0 led_o=0
+[625000] counter=125 clk_i=1 rst_i=0 led_o=0
+[630000] counter=126 clk_i=0 rst_i=0 led_o=0
+[635000] counter=127 clk_i=1 rst_i=0 led_o=0
+[640000] counter=128 clk_i=0 rst_i=0 led_o=0
+[645000] counter=129 clk_i=1 rst_i=0 led_o=0
+[650000] counter=130 clk_i=0 rst_i=0 led_o=0
+[655000] counter=131 clk_i=1 rst_i=0 led_o=0
+[660000] counter=132 clk_i=0 rst_i=0 led_o=0
+[665000] counter=133 clk_i=1 rst_i=0 led_o=0
+[670000] counter=134 clk_i=0 rst_i=0 led_o=0
+[675000] counter=135 clk_i=1 rst_i=0 led_o=0
+[680000] counter=136 clk_i=0 rst_i=0 led_o=0
+[685000] counter=137 clk_i=1 rst_i=0 led_o=0
+[690000] counter=138 clk_i=0 rst_i=0 led_o=0
+[695000] counter=139 clk_i=1 rst_i=0 led_o=0
+[700000] counter=140 clk_i=0 rst_i=0 led_o=0
+[705000] counter=141 clk_i=1 rst_i=0 led_o=0
+[710000] counter=142 clk_i=0 rst_i=0 led_o=0
+[715000] counter=143 clk_i=1 rst_i=0 led_o=0
+[720000] counter=144 clk_i=0 rst_i=0 led_o=0
+[725000] counter=145 clk_i=1 rst_i=0 led_o=0
+[730000] counter=146 clk_i=0 rst_i=0 led_o=0
+[735000] counter=147 clk_i=1 rst_i=0 led_o=0
+[740000] counter=148 clk_i=0 rst_i=0 led_o=0
+[745000] counter=149 clk_i=1 rst_i=0 led_o=0
+[750000] counter=150 clk_i=0 rst_i=0 led_o=0
+[755000] counter=151 clk_i=1 rst_i=0 led_o=0
+[760000] counter=152 clk_i=0 rst_i=0 led_o=0
+[765000] counter=153 clk_i=1 rst_i=0 led_o=0
+[770000] counter=154 clk_i=0 rst_i=0 led_o=0
+[775000] counter=155 clk_i=1 rst_i=0 led_o=0
+[780000] counter=156 clk_i=0 rst_i=0 led_o=0
+[785000] counter=157 clk_i=1 rst_i=0 led_o=0
+[790000] counter=158 clk_i=0 rst_i=0 led_o=0
+[795000] counter=159 clk_i=1 rst_i=0 led_o=0
+[800000] counter=160 clk_i=0 rst_i=0 led_o=0
+[805000] counter=161 clk_i=1 rst_i=0 led_o=0
+[810000] counter=162 clk_i=0 rst_i=0 led_o=0
+[815000] counter=163 clk_i=1 rst_i=0 led_o=0
+[820000] counter=164 clk_i=0 rst_i=0 led_o=0
+[825000] counter=165 clk_i=1 rst_i=0 led_o=0
+[830000] counter=166 clk_i=0 rst_i=0 led_o=0
+[835000] counter=167 clk_i=1 rst_i=0 led_o=0
+[840000] counter=168 clk_i=0 rst_i=0 led_o=0
+[845000] counter=169 clk_i=1 rst_i=0 led_o=0
+[850000] counter=170 clk_i=0 rst_i=0 led_o=0
+[855000] counter=171 clk_i=1 rst_i=0 led_o=0
+[860000] counter=172 clk_i=0 rst_i=0 led_o=0
+[865000] counter=173 clk_i=1 rst_i=0 led_o=0
+[870000] counter=174 clk_i=0 rst_i=0 led_o=0
+[875000] counter=175 clk_i=1 rst_i=0 led_o=0
+[880000] counter=176 clk_i=0 rst_i=0 led_o=0
+[885000] counter=177 clk_i=1 rst_i=0 led_o=0
+[890000] counter=178 clk_i=0 rst_i=0 led_o=0
+[895000] counter=179 clk_i=1 rst_i=0 led_o=0
+[900000] counter=180 clk_i=0 rst_i=0 led_o=0
+[905000] counter=181 clk_i=1 rst_i=0 led_o=0
+[910000] counter=182 clk_i=0 rst_i=0 led_o=0
+[915000] counter=183 clk_i=1 rst_i=0 led_o=0
+[920000] counter=184 clk_i=0 rst_i=0 led_o=0
+[925000] counter=185 clk_i=1 rst_i=0 led_o=0
+[930000] counter=186 clk_i=0 rst_i=0 led_o=0
+[935000] counter=187 clk_i=1 rst_i=0 led_o=0
+[940000] counter=188 clk_i=0 rst_i=0 led_o=0
+[945000] counter=189 clk_i=1 rst_i=0 led_o=0
+[950000] counter=190 clk_i=0 rst_i=0 led_o=0
+[955000] counter=191 clk_i=1 rst_i=0 led_o=0
+[960000] counter=192 clk_i=0 rst_i=0 led_o=0
+[965000] counter=193 clk_i=1 rst_i=0 led_o=0
+[970000] counter=194 clk_i=0 rst_i=0 led_o=0
+[975000] counter=195 clk_i=1 rst_i=0 led_o=0
+[980000] counter=196 clk_i=0 rst_i=0 led_o=0
+[985000] counter=197 clk_i=1 rst_i=0 led_o=0
+[990000] counter=198 clk_i=0 rst_i=0 led_o=0
+[995000] counter=199 clk_i=1 rst_i=0 led_o=0
+[1000000] counter=200 clk_i=0 rst_i=0 led_o=0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'lab2_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1526.406 ; gain = 31.832
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\HDL\lab2\lab2.srcs\sim_1\new\lab2_sim.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\HDL\lab2\lab2.srcs\sources_1\new\lab2.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 31 16:34:11 2025...

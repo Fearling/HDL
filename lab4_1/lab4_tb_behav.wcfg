@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="lab4_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="lab4_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="54.900001 us"></ZoomEndTime>
+      <Cursor1Time time="0.020000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="191"></NameColumnWidth>
+      <ValueColumnWidth column_width="88"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/lab4_tb/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_tb/rst_i" type="logic">
+      <obj_property name="ElementShortName">rst_i</obj_property>
+      <obj_property name="ObjectShortName">rst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_tb/button_hr_i" type="logic">
+      <obj_property name="ElementShortName">button_hr_i</obj_property>
+      <obj_property name="ObjectShortName">button_hr_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_tb/button_min_i" type="logic">
+      <obj_property name="ElementShortName">button_min_i</obj_property>
+      <obj_property name="ObjectShortName">button_min_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_tb/button_test_i" type="logic">
+      <obj_property name="ElementShortName">button_test_i</obj_property>
+      <obj_property name="ObjectShortName">button_test_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_tb/led7_seg_o" type="array">
+      <obj_property name="ElementShortName">led7_seg_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led7_seg_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_tb/led7_an_o" type="array">
+      <obj_property name="ElementShortName">led7_an_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led7_an_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_tb/uut/led7_translated" type="array">
+      <obj_property name="ElementShortName">led7_translated[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led7_translated[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_tb/uut/count" type="array">
+      <obj_property name="ElementShortName">count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_tb/uut/seg_state" type="array">
+      <obj_property name="ElementShortName">seg_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lab4_tb/uut/min_10" type="array">
+      <obj_property name="ElementShortName">min_10[3:0]</obj_property>
+      <obj_property name="ObjectShortName">min_10[3:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/HDL/lab4_1/lab4_1.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+C:/HDL/lab4_1/lab4_1.srcs/sim_1/new/lab4.v,1748379526,verilog,,,,lab4_tb,,,,,,,,
+C:/HDL/lab4_1/lab4_1.srcs/sources_1/new/debouncer.v,1748382323,verilog,,C:/HDL/lab4_1/lab4_1.srcs/sources_1/new/lab4.v,,debouncer,,,,,,,,
+C:/HDL/lab4_1/lab4_1.srcs/sources_1/new/lab4.v,1748383665,verilog,,C:/HDL/lab4_1/lab4_1.srcs/sim_1/new/lab4.v,,lab4,,,,,,,,

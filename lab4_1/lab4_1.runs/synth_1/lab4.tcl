@@ -101,6 +101,8 @@ read_xdc C:/HDL/lab4_1/lab4_1.srcs/constrs_1/new/lab4.xdc
 set_property used_in_implementation false [get_files C:/HDL/lab4_1/lab4_1.srcs/constrs_1/new/lab4.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental C:/HDL/lab4_1/lab4_1.srcs/utils_1/imports/synth_1/lab4.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

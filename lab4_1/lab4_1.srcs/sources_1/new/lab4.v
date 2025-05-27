@@ -37,9 +37,7 @@ output reg led7_seg_o, led7_an_o
         .button_min_i(min_up),
         .button_test_i(test),
         .rst_i(rst_i),
-        .button_pressed(pressed),
-        
-        .N(N)
+        .button_pressed(pressed)
     );
     
     
@@ -47,7 +45,6 @@ output reg led7_seg_o, led7_an_o
         if (rst_i) begin
             
         end
-        
         else begin
             
             

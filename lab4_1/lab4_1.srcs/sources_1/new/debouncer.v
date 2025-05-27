@@ -22,28 +22,37 @@
 
 module debouncer(
 input wire clk_i, min_up, h_up, test, rst_i,
-output reg pressed
+output reg h_1, min_1, test_p
     );
     parameter delay = 5000000;
-    reg press = 0;
+    reg pressing = 0, pressed = 0;
     integer count = 0;
     
     
     always @ (posedge clk_i or posedge rst_i) begin
         if (rst_i) begin
             pressed <= 0;
+            pressing <= 0;
         end
         else begin
-            press <= min_up | h_up | test;
+            pressing <= min_up | h_up | test;
             count <= count + 1;
-            if (press && pressed == 0) begin
+            if (pressing && pressed == 0) begin
                 count <= count + 1;
                 if (count > delay) begin
                     count <= 0;
-                    pressed <= 1;
+                    if (h_up) begin
+                        h_1 <= h_1 + 1;
+                    end
+                    else if (min_up) begin
+                        min_1 <= min_1 + 1;
+                    end
+                    else if (test) begin
+                        test_p <= ~test_p;
+                    end
                 end
             end
-            else if (press == 0 && pressed) begin
+            else if (pressing == 0 && pressed) begin
                 count <= count + 1;
                 if (count > delay) begin
                     count <= 0;

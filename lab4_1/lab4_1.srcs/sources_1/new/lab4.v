@@ -26,13 +26,13 @@ output reg [7:0] led7_seg_o = 8'hff, led7_an_o = 8'hff
     );
     
     reg test = 0;
-    parameter N = 10;
+    parameter N = 100000000;
     reg sec = 1;
     wire [1:0] debouncer_command;
     reg [1:0] h_10 = 0, seg_state = 0;
     reg [3:0] h_1 = 0, min_10 = 0, min_1 = 0, led7_current = 4'hf;
     reg [7:0] sec_c = 0, led7_translated = 8'hff;
-    integer count;
+    integer count = 0, count_2 = 0;
     
     
     debouncer de (
@@ -58,7 +58,8 @@ output reg [7:0] led7_seg_o = 8'hff, led7_an_o = 8'hff
         end
         else begin
             count <= count + 1;
-            if (count > (N / ((1000 * test) + (1 * ~test)))) begin
+            count_2 <= count_2 + 1000;
+            if (count == N ) begin
                 count <= 0;
                 sec <= ~sec;
                 sec_c <= sec_c + 1; 
@@ -66,6 +67,10 @@ output reg [7:0] led7_seg_o = 8'hff, led7_an_o = 8'hff
                     sec_c <= 0;
                     min_1 <= min_1 + 1;
                 end
+            end
+            
+            if (count_2 == N) begin
+            count_2 <= 0;
                 if (min_1 > 9) begin
                     min_1 <= 0;
                     min_10 <= min_10 + 1;
@@ -78,7 +83,7 @@ output reg [7:0] led7_seg_o = 8'hff, led7_an_o = 8'hff
                     h_1 <= 0;
                     h_10 <= h_10 + 1;
                 end
-                if ((h_10 > 1 && h_1 > 3 && min_10 > 5 && min_1 > 8 && sec_c > 59) || h_10 > 2) begin
+                if (h_10 > 1 && h_1 > 3) begin
                     h_10 <= 0;
                     h_1 <= 0;
                     min_10 <= 0;
@@ -87,60 +92,59 @@ output reg [7:0] led7_seg_o = 8'hff, led7_an_o = 8'hff
                     sec <= 0;
                 end
                 case (seg_state)
-                2'b00 : begin
-                    led7_seg_o <= 8'b11111110;
-                    led7_an_o <= led7_translated[7:0];
-                    seg_state <= 2'b01;
-                    led7_translated[7] <= 0;
+                2'b11 : begin
+                    led7_an_o <= 8'b11111110;
+                    led7_seg_o <= led7_translated[7:0];
+                    seg_state <= 2'b00;
+                    led7_translated[0] <= 1;
                     led7_current <= min_1;
                 end
-                2'b01 : begin
-                    led7_seg_o <= 8'b11111101;
-                    led7_an_o <= led7_translated[7:0];
-                    seg_state <= 2'b10;
-                    led7_translated[7] <= sec;
+                2'b10 : begin
+                    led7_an_o <= 8'b11111101;
+                    led7_seg_o <= led7_translated[7:0];
+                    seg_state <= 2'b11;
+                    led7_translated[0] <= sec;
                     led7_current <= min_10;
                 end
-                2'b10 : begin
-                    led7_seg_o <= 8'b11111011;
-                    led7_an_o <= led7_translated[7:0];
-                    seg_state <= 2'b11;
-                    led7_translated[7] <= 0;
+                2'b01 : begin
+                    led7_an_o <= 8'b11111011;
+                    led7_seg_o <= led7_translated[7:0];
+                    seg_state <= 2'b10;
+                    led7_translated[0] <= 1;
                     led7_current <= h_1;
                 end
-                2'b11 : begin
-                    led7_seg_o <= 8'b11110111;
-                    led7_an_o <= led7_translated[7:0];
-                    seg_state <= 2'b00;
-                    led7_translated[7] <= 0;
+                2'b00 : begin
+                    led7_an_o <= 8'b11110111;
+                    led7_seg_o <= led7_translated[7:0];
+                    seg_state <= 2'b01;
+                    led7_translated[0] <= 1;
                     led7_current <= h_10;
                 end
                 endcase 
             
                 case (led7_current)
-                    4'b0000 : led7_translated[6:0] <= 7'b1000000;
-                    4'b0001 : led7_translated[6:0] <= 7'b1111001;
-                    4'b0010 : led7_translated[6:0] <= 7'b0100000;
-                    4'b0011 : led7_translated[6:0] <= 7'b0110000;
-                    4'b0100 : led7_translated[6:0] <= 7'b0011001;
-                    4'b0101 : led7_translated[6:0] <= 7'b0010010;
-                    4'b0110 : led7_translated[6:0] <= 7'b0000011;
-                    4'b0111 : led7_translated[6:0] <= 7'b1111000;
-                    4'b1000 : led7_translated[6:0] <= 7'b0000000;
-                    4'b1001 : led7_translated[6:0] <= 7'b0010000;
+                    4'b0000 : led7_translated[7:1] <= 7'b0000001;
+                    4'b0001 : led7_translated[7:1] <= 7'b1001111;
+                    4'b0010 : led7_translated[7:1] <= 7'b0000010;
+                    4'b0011 : led7_translated[7:1] <= 7'b0000110;
+                    4'b0100 : led7_translated[7:1] <= 7'b1001101;
+                    4'b0101 : led7_translated[7:1] <= 7'b0100100;
+                    4'b0110 : led7_translated[7:1] <= 7'b1100000;
+                    4'b0111 : led7_translated[7:1] <= 7'b0001111;
+                    4'b1000 : led7_translated[7:1] <= 7'b0000000;
+                    4'b1001 : led7_translated[7:1] <= 7'b0000100;
                 endcase
             
-                case(debouncer_command)
-                    2'b11 : h_1 <= h_1 + 1;
-                    2'b10 : min_1 <= min_1 + 1;
-                    2'b01 : test <= ~test;
-                    default : ;
-                endcase
+                
+            
             end
-            
-            
-            
-            
+        case(debouncer_command)
+            2'b11 : h_1 <= h_1 + 1;
+            2'b10 : min_1 <= min_1 + 1;
+            2'b01 : test <= ~test;
+            default : ;
+        endcase
         end
+        
     end
 endmodule

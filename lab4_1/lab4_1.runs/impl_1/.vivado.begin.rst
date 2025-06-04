@@ -1,20 +1,10 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="ciast" Host="DESKTOP-MVBP66S" Pid="17856" HostCore="8" HostMemory="033752936448">
+    <Process Command="vivado.bat" Owner="ciast" Host="DESKTOP-MVBP66S" Pid="12324" HostCore="8" HostMemory="033752936448">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="ciast" Host="DESKTOP-MVBP66S" Pid="7876" HostCore="8" HostMemory="033752936448">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="ciast" Host="DESKTOP-MVBP66S" Pid="448" HostCore="8" HostMemory="033752936448">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="ciast" Host="DESKTOP-MVBP66S" Pid="17076" HostCore="8" HostMemory="033752936448">
+    <Process Command="vivado.bat" Owner="ciast" Host="DESKTOP-MVBP66S" Pid="3228" HostCore="8" HostMemory="033752936448">
     </Process>
 </ProcessHandle>

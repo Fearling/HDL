@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module lab5_tb;
+module sim5;
     reg clk = 0;
     reg rst = 0;
     reg ps2_clk = 1;

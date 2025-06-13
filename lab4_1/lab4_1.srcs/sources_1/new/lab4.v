@@ -103,14 +103,14 @@ output reg [7:0] led7_seg_o = 8'hff, led7_an_o = 8'hff
                     led7_an_o <= 8'b11111101;
                     led7_seg_o <= led7_translated[7:0];
                     seg_state <= 2'b11;
-                    led7_translated[0] <= sec;
+                    led7_translated[0] <= 1;
                     led7_current <= min_10;
                 end
                 2'b01 : begin
                     led7_an_o <= 8'b11111011;
                     led7_seg_o <= led7_translated[7:0];
                     seg_state <= 2'b10;
-                    led7_translated[0] <= 1;
+                    led7_translated[0] <= sec;
                     led7_current <= h_1;
                 end
                 2'b00 : begin
